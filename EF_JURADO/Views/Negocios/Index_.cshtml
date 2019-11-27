@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Dominio.Core.Entities.Pedido>
+
+@{
+    ViewBag.Title = "Index_";
+}
+
+<h2>Listado de Pedidos</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "AgregarPedido", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idped)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaped)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idempleado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.detped)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.costoped)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.idped)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechaped)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.idempleado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.detped)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.costoped)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

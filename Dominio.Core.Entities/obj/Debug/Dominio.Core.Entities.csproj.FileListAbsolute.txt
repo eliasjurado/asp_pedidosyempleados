@@ -1,0 +1,10 @@
+D:\Nueva carpeta\EF_JURADO\Dominio.Core.Entities\bin\Debug\Dominio.Core.Entities.dll
+D:\Nueva carpeta\EF_JURADO\Dominio.Core.Entities\bin\Debug\Dominio.Core.Entities.pdb
+D:\Nueva carpeta\EF_JURADO\Dominio.Core.Entities\obj\Debug\Dominio.Core.Entities.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\EF_JURADO\Dominio.Core.Entities\obj\Debug\Dominio.Core.Entities.dll
+D:\Nueva carpeta\EF_JURADO\Dominio.Core.Entities\obj\Debug\Dominio.Core.Entities.pdb
+D:\Nueva carpeta\00\EF_JURADO\Dominio.Core.Entities\bin\Debug\Dominio.Core.Entities.dll
+D:\Nueva carpeta\00\EF_JURADO\Dominio.Core.Entities\bin\Debug\Dominio.Core.Entities.pdb
+D:\Nueva carpeta\00\EF_JURADO\Dominio.Core.Entities\obj\Debug\Dominio.Core.Entities.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\00\EF_JURADO\Dominio.Core.Entities\obj\Debug\Dominio.Core.Entities.dll
+D:\Nueva carpeta\00\EF_JURADO\Dominio.Core.Entities\obj\Debug\Dominio.Core.Entities.pdb
